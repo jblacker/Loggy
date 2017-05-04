@@ -1,0 +1,21 @@
+{
+  "name": "loggy",
+  "version": "0.1.0",
+  "description": "Logging Viewer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "electron": "electron app"
+  },
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.6.6",
+    "es6-shim": "^0.35.3",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "author": "Jordan Blacker <jordan.blacker@gmail.com>",
+  "license": "MIT"
+}
